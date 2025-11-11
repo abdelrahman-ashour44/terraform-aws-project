@@ -78,26 +78,19 @@ terraform-project/
 > so it may **not fully work** in AWS Academy environment.  
 > For full functionality, use a standard AWS account with enough EC2 and ALB quotas.
 
+##project screenshots
 
-## Project Screenshots
+<img width="799" height="441" alt="the_project" src="https://github.com/user-attachments/assets/8857819b-1ff5-4fd5-90c3-516719281459" />
+<img width="717" height="134" alt="workspace dev" src="https://github.com/user-attachments/assets/8b3baf1e-a2a0-42d5-905c-61839160953e" />
 
-### the_project
-![the_project](images/the_project.png)
+<img width="715" height="474" alt="public server(proxy)" src="https://github.com/user-attachments/assets/4f5495e3-353a-4e5a-b1a4-aed8c4ccbab8" />
+<img width="804" height="388" alt="Configuration of the proxy (Apache)" src="https://github.com/user-attachments/assets/f8fb5ad0-05a9-48a5-905d-a281efac7955" />
 
-### Workspace dev
-![Workspace](images/workspace%20dev.png)
 
-### Public Server (Proxy)
-![Public Server](images/public%20server(proxy).png)
+<img width="693" height="554" alt="load Balancer DNS" src="https://github.com/user-attachments/assets/8dbe7236-f9fb-47de-8716-faec88e88d38" />
+<img width="948" height="492" alt="Apache Return" src="https://github.com/user-attachments/assets/51d06c13-e015-4ca7-86fa-46de13de0220" />
 
-### Apache Configuration / Proxy
-![Proxy Configuration](images/Configuration%20of%20the%20proxy%20(Apache).png)
+<img width="965" height="429" alt="S3 bucket containing the state file" src="https://github.com/user-attachments/assets/ad99816d-b43b-44f3-ae5f-c2037652cbca" />
 
-### Apache Return Test
-![Apache Return](images/Apache%20Return.png)
 
-### Load Balancer DNS
-![ALB DNS](images/load%20Balancer%20DNS.png)
 
-### S3 State File
-![S3 Bucket](images/S3%20bucket%20containing%20the%20state%20file.png)
