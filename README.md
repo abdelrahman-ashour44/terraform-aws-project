@@ -43,8 +43,9 @@ ssh -i key.pem ec2-user@<public-ip>
 - Private EC2s: Access via bastion host (first public EC2)
 
 ## Project Structure
+## Project Structure
+```text
 terraform-project/
-│
 ├── main.tf             # Root Terraform configuration
 ├── variables.tf        # Root variables
 ├── outputs.tf          # Root outputs
@@ -57,6 +58,14 @@ terraform-project/
 │       └── main.tf
 ├── app/
 │   └── app.py          # Web application for private EC2s
+├── images/             # Screenshots for documentation
+│   ├── Apache Return.png
+│   ├── Configuration of the proxy (Apache).png
+│   ├── load Balancer DNS.png
+│   ├── public server(proxy).png
+│   ├── Screenshot 2025-11-08 224830.png
+│   ├── S3 bucket containing the state file.png
+│   └── workspace dev.png
 └── key.pem             # SSH key pair for EC2 access
 
 ## Notes
@@ -71,24 +80,24 @@ terraform-project/
 
 
 ## Project Screenshots
+
 ### the_project
-![Workspace](images/"the_project.png")
+![the_project](images/the_project.png)
 
 ### Workspace dev
-![Workspace](images/"workspace dev.png")
+![Workspace](images/workspace%20dev.png)
 
 ### Public Server (Proxy)
-![Public Server](images/"public server(proxy).png")
+![Public Server](images/public%20server(proxy).png)
 
 ### Apache Configuration / Proxy
-![Proxy Configuration](images/"Configuration of the proxy (Apache).png")
+![Proxy Configuration](images/Configuration%20of%20the%20proxy%20(Apache).png)
 
 ### Apache Return Test
-![Apache Return](images/"Apache Return.png")
+![Apache Return](images/Apache%20Return.png)
 
 ### Load Balancer DNS
-![ALB DNS](images/"load Balancer DNS.png")
+![ALB DNS](images/load%20Balancer%20DNS.png)
 
 ### S3 State File
-![S3 Bucket](images/"S3 bucket containing the state file.png")
-
+![S3 Bucket](images/S3%20bucket%20containing%20the%20state%20file.png)
