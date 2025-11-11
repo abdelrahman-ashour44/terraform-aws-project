@@ -79,7 +79,7 @@ terraform-project/
 > For full functionality, use a standard AWS account with enough EC2 and ALB quotas.
 
 ##project screenshots
-
+```
 <img width="799" height="441" alt="the_project" src="https://github.com/user-attachments/assets/8857819b-1ff5-4fd5-90c3-516719281459" />
 <img width="717" height="134" alt="workspace dev" src="https://github.com/user-attachments/assets/8b3baf1e-a2a0-42d5-905c-61839160953e" />
 
